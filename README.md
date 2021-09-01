@@ -14,6 +14,29 @@ Notas para la configuración de diferentes entornos de desarrollo
  
 
 
+## Trabajar con repositorios de GitHub
+
+1. Crear una carpeta para guardar los repositorios, por ejemplo:
+
+	```
+	mkdir repos-myname
+	```
+	
+1. Navegar a esa carpeta desde Git Bash:
+
+	```
+	cd repos-myname
+	```
+1. Clonar el repositorio deseado:
+
+	```
+	git clone URL-TO-REPO
+	```
+	Cambiando `URL-TO-REPO` por la dirección HTTPS del repositorio de GitHub
+	
+1. Para trabajar con el repositorio lo más fácil es arrastrar la carpeta clonada al icono de VS Code en el escritorio.
+
+	
 ## Remote developing en VS-Code
 
 1. Instalar el pack de extensiones `Remote Development`
