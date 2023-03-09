@@ -1,4 +1,4 @@
-# dev-enviroment-config-notes
+# dev-environment-config-notes
 Notas para la configuración de diferentes entornos de desarrollo
 
 ## Configuracion básica en VS-Code
