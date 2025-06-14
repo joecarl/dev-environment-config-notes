@@ -40,7 +40,17 @@ Notas para la configuración de diferentes entornos de desarrollo
 ## Remote developing en VS-Code
 
 1. Instalar el pack de extensiones `Remote Development`
-1. Para iniciar sesión con SSH keys, lanzar los siguientes comandos desde Git Bash:
+1. Utilizar el script `add_ssh_connection.sh` para agregar una conexión ssh. Para ello abre un terminal de Git Bash en el directorio raíz de este repositorio y lanza este comando:
+
+	```sh
+	bash scripts/add_ssh_connection.sh
+	``` 
+
+	---
+
+	La información mostrada a continuación ya es innecesaria, y además es incompleta (la mantengo a modo informativo):
+
+	Para iniciar sesión con SSH keys, lanzar los siguientes comandos desde Git Bash:
 
 	```
 	ssh-keygen -t rsa -b 4096
